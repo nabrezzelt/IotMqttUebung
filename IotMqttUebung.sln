@@ -11,6 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotMqttUebung.Shared", "auf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotMqttUebung.Subscriber", "aufgabe-1\IotMqttUebung.Subscriber\IotMqttUebung.Subscriber.csproj", "{798CC51A-DE04-43F3-BCC7-626BCF468C79}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aufgabe-2", "aufgabe-2", "{930B384A-5ED3-41F7-86D1-A28E72308768}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotMqttUebung2.Publisher", "aufgabe-2\IotMqttUebung2.Publisher\IotMqttUebung2.Publisher.csproj", "{95330CA8-7BF6-4338-A1D4-842E68F662E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotMqttUebung2.Shared", "aufgabe-2\IotMqttUebung2.Shared\IotMqttUebung2.Shared.csproj", "{BEB4183A-5EB2-4AF4-8321-46B895740983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotMqttUebung2.Subscriber", "aufgabe-2\IotMqttUebung2.Subscriber\IotMqttUebung2.Subscriber.csproj", "{DD28975E-E343-4EF2-9052-2736B2586761}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +37,18 @@ Global
 		{798CC51A-DE04-43F3-BCC7-626BCF468C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{798CC51A-DE04-43F3-BCC7-626BCF468C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{798CC51A-DE04-43F3-BCC7-626BCF468C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95330CA8-7BF6-4338-A1D4-842E68F662E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95330CA8-7BF6-4338-A1D4-842E68F662E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95330CA8-7BF6-4338-A1D4-842E68F662E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95330CA8-7BF6-4338-A1D4-842E68F662E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB4183A-5EB2-4AF4-8321-46B895740983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB4183A-5EB2-4AF4-8321-46B895740983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB4183A-5EB2-4AF4-8321-46B895740983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB4183A-5EB2-4AF4-8321-46B895740983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD28975E-E343-4EF2-9052-2736B2586761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD28975E-E343-4EF2-9052-2736B2586761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD28975E-E343-4EF2-9052-2736B2586761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD28975E-E343-4EF2-9052-2736B2586761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +57,9 @@ Global
 		{A11BC799-5FD5-4CD3-A13D-5BC9A832C904} = {84ECB568-EEB9-4B16-9A48-937EC49BC5CD}
 		{F3B96982-ED14-4262-86BE-3C8A89AD49DE} = {84ECB568-EEB9-4B16-9A48-937EC49BC5CD}
 		{798CC51A-DE04-43F3-BCC7-626BCF468C79} = {84ECB568-EEB9-4B16-9A48-937EC49BC5CD}
+		{95330CA8-7BF6-4338-A1D4-842E68F662E0} = {930B384A-5ED3-41F7-86D1-A28E72308768}
+		{BEB4183A-5EB2-4AF4-8321-46B895740983} = {930B384A-5ED3-41F7-86D1-A28E72308768}
+		{DD28975E-E343-4EF2-9052-2736B2586761} = {930B384A-5ED3-41F7-86D1-A28E72308768}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4426346-731A-4E55-80E8-92A18571E284}
