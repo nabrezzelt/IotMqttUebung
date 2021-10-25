@@ -8,7 +8,7 @@ namespace IotMqttUebung2.Publisher
     {
         private static MqttPublishClient _client;
 
-        private static async Task Main(string[] args)
+        private static async Task Main()
         {
             _client = new MqttPublishClient();
 

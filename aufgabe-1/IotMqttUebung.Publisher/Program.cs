@@ -5,7 +5,7 @@ namespace IotMqttUebung.Publisher
 {
     public static class Program
     {
-        private static async Task Main(string[] args)
+        private static async Task Main()
         {
             var testclient = new MqttTestClient();
 

@@ -16,7 +16,7 @@ namespace IotMqttUebung2.Publisher
         private IMqttClientOptions _options;
         private readonly PerformanceCounter _cpuCounter;
 
-        private const string Topic = "iotcourse/internetderdingse";
+        private const string Topic = "iotcourse/T3INF4902";
 
         public MqttPublishClient()
         {
@@ -55,7 +55,7 @@ namespace IotMqttUebung2.Publisher
             await _mqttClient.ConnectAsync(_options, CancellationToken.None);
         }
 
-        public MessagePayload GetMessagePayload()
+        private MessagePayload GetMessagePayload()
         {
             return new MessagePayload
             {

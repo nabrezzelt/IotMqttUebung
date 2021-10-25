@@ -1,6 +1,4 @@
-﻿using System;
-using System.Dynamic;
-using System.Text.Json;
+﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace IotMqttUebung2.Shared
@@ -21,9 +19,6 @@ namespace IotMqttUebung2.Shared
 
         [JsonPropertyName("load")]
         public double Load { get; set; }
-
-        [JsonIgnore]
-        public DateTime ReceivedTimeStamp { get; set; }
 
         public string AsJsonString()
         {
