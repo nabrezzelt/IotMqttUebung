@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aufgabe-1", "aufgabe-1", "{84ECB568-EEB9-4B16-9A48-937EC49BC5CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotMqttUebung.Publisher", "aufgabe-1\IotMqttUebung.Publisher\IotMqttUebung.Publisher.csproj", "{A11BC799-5FD5-4CD3-A13D-5BC9A832C904}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotMqttUebung.Shared", "aufgabe-1\IotMqttUebung.Shared\IotMqttUebung.Shared.csproj", "{F3B96982-ED14-4262-86BE-3C8A89AD49DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IotMqttUebung.Subscriber", "aufgabe-1\IotMqttUebung.Subscriber\IotMqttUebung.Subscriber.csproj", "{798CC51A-DE04-43F3-BCC7-626BCF468C79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A11BC799-5FD5-4CD3-A13D-5BC9A832C904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11BC799-5FD5-4CD3-A13D-5BC9A832C904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11BC799-5FD5-4CD3-A13D-5BC9A832C904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11BC799-5FD5-4CD3-A13D-5BC9A832C904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3B96982-ED14-4262-86BE-3C8A89AD49DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3B96982-ED14-4262-86BE-3C8A89AD49DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3B96982-ED14-4262-86BE-3C8A89AD49DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3B96982-ED14-4262-86BE-3C8A89AD49DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798CC51A-DE04-43F3-BCC7-626BCF468C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798CC51A-DE04-43F3-BCC7-626BCF468C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798CC51A-DE04-43F3-BCC7-626BCF468C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798CC51A-DE04-43F3-BCC7-626BCF468C79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A11BC799-5FD5-4CD3-A13D-5BC9A832C904} = {84ECB568-EEB9-4B16-9A48-937EC49BC5CD}
+		{F3B96982-ED14-4262-86BE-3C8A89AD49DE} = {84ECB568-EEB9-4B16-9A48-937EC49BC5CD}
+		{798CC51A-DE04-43F3-BCC7-626BCF468C79} = {84ECB568-EEB9-4B16-9A48-937EC49BC5CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4426346-731A-4E55-80E8-92A18571E284}
+	EndGlobalSection
+EndGlobal
